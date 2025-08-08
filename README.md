@@ -4,4 +4,4 @@
 
 
 To run the application 
-http://forestfirefwipredictor-env.eba-mpwfbxnw.ap-south-1.elasticbeanstalk.com/predictdata
+https://algerian-forest-fire-ml-prediction.onrender.com/predictdata
