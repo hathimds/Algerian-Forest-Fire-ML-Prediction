@@ -46,8 +46,10 @@ The dataset includes meteorological variables such as temperature, humidity, win
 ---
 
 ## 🌐 Model Deployment 
-- Deployed the Flask app on Render
-**Live App:**[Link](https://algerian-forest-fire-ml-prediction.onrender.com/predictdata) 
+- Deployed the Flask app on **Render**
+
+**Live App:**
+[Link](https://algerian-forest-fire-ml-prediction.onrender.com/predictdata) 
 
 ---
 
