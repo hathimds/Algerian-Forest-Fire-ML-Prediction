@@ -1,47 +1,60 @@
-# 🌲 Algerian Forest Fire – FWI Prediction (Deployed on Render)
+# 🌲 Algerian Forest Fire – Fire Weather Index (FWI) Prediction
 
-A complete **machine learning pipeline** to predict the **Fire Weather Index (FWI)** using real-world Algerian forest fire meteorological data.  
-This project includes **data preprocessing, model building, evaluation, and deployment** as a **Flask web app** hosted on **Render**.
+This project presents a complete machine learning pipeline to predict the **Fire Weather Index (FWI)** using real-world meteorological data from Algerian forest fire records. The goal is to support early warning and forest fire risk assessment through accurate FWI predictions.
 
 ---
 
 ## 📌 Project Overview
-
-Wildfires can have devastating environmental and economic impacts.  
-This project uses **meteorological data** to predict the **Fire Weather Index (FWI)** — a numerical rating of fire danger.
-
-The system:
-- ✅ Cleans and processes raw weather data from Algeria  
-- ✅ Trains a **Ridge Regression** model for FWI prediction  
-- ✅ Provides an **interactive web interface** for user input  
-- ✅ Returns real-time FWI predictions via a deployed Flask app
+- Cleaned and processed meteorological data relevant to fire weather conditions.  
+- Built a **Ridge Regression** model to predict FWI based on weather features.  
+- Developed a **Flask web application** that allows users to input meteorological parameters and receive predicted FWI values in real time.  
+- Successfully deployed the web app on **Render** for public access.
 
 ---
 
-## 🚀 Tech Stack
-
-- **Python** – Core programming language  
-- **Flask** – Web framework  
-- **Scikit-learn** – Machine learning & Ridge Regression model  
-- **Pandas & NumPy** – Data preprocessing & manipulation  
-- **Render** – Deployment platform
+## ✅ Key Features
+- Data preprocessing including cleaning, handling missing values, and feature engineering.  
+- Ridge Regression model trained and evaluated for robust prediction.  
+- Interactive Flask interface for user-friendly input and output display.  
+- Cloud deployment enabling easy access from anywhere.
 
 ---
 
-## 📊 Model Details
-Algorithm: Ridge Regression
-
-Target: Fire Weather Index (FWI)
-
-Metrics: R² Score, MAE, RMSE
-
-Preprocessing: Missing value handling, feature scaling, and encoding where needed
+## 🗂 Dataset
+The dataset includes meteorological variables such as temperature, humidity, wind speed, rainfall, and others recorded during Algerian forest fire events.
 
 ---
 
-## 🌐 Deployment
-The app is deployed on Render.
-🔗 Live Demo: https://algerian-forest-fire-ml-prediction.onrender.com/predictdata
+## 🔍 Data Processing & Modeling Steps
+- Data cleaning and preprocessing  
+- Exploratory data analysis  
+- Feature selection  
+- Model building using Ridge Regression  
+- Model evaluation with relevant metrics  
+- Web app development for prediction interface  
+- Deployment on Render platform
 
+---
 
+## 🛠 Technologies & Tools
+- **Python**  
+- **Flask**  
+- **Scikit-learn**  
+- **Pandas, NumPy**  
+- **Render (for deployment)**  
 
+---
+
+## 🌐 Live Demo
+[Link](https://algerian-forest-fire-ml-prediction.onrender.com/predictdata) 
+
+---
+
+## 📬 Connect with Me
+Feel free to reach out or explore more of my projects on LinkedIn:  
+[Haathim Manaf - LinkedIn](https://www.linkedin.com/in/haathim-manaf)
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
